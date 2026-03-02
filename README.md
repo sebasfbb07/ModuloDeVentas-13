@@ -38,9 +38,9 @@ Al finalizar la ejecución, se muestra en consola:
 
 --------------------------------
 | Nombre del cliente: Juan Pérez
-| Subtotal: $200.00
-| Descuento aplicado: $20.00
-| Total final a pagar: $180.00
+| Subtotal: $2000.00
+| Descuento aplicado: $200.00
+| Total final a pagar: $1800.00
 --------------------------------
 
 ---
@@ -84,22 +84,22 @@ Al finalizar la ejecución, se muestra en consola:
 -------------------
 Caso 1: Cliente Normal
 - Cantidad: 2
-- Precio: $50
+- Precio: $500
 - VIP: No
 
 Resultado:
-- Subtotal: $100
+- Subtotal: $1000
 - Descuento: $0
-- Total: $100
+- Total: $1000
 
 Caso 2: Cliente VIP
 - Cantidad: 3
-- Precio: $100
+- Precio: $1000
 - VIP: Sí
 
 Resultado:
-- Subtotal: $300
-- Descuento: $30
-- Total: $270
+- Subtotal: $3000
+- Descuento: $300
+- Total: $2700
 
 ========================================
