@@ -2,10 +2,21 @@ def pedir_nombre():
     return input("Por favor ingrese el nombre del cliente: ")
 
 def pedir_precio():
-    return float(input("Ingrese el valor unitario del producto: "))
+    while True:
+        try:
+            precio=int(input("Por favor ingrese el precio unitario del producto."))
+            return precio
+        except ValueError:
+            print("Por favor ingrese un número.")
+            
 
 def pedir_cantidad():
-    return int(input("Ingrese la cantidad de productos: "))
+     while True:
+        try:
+            cantidad=int(input("Por favor ingrese la cantidad de productos."))
+            return cantidad
+        except ValueError:
+            print("Por favor ingrese un número.")
 
 def pedir_respuesta_vip():
     return input("El cliente es VIP? (si/no): ")
